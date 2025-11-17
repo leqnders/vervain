@@ -8,7 +8,7 @@ fn main() {
         end
     "#;
 
-    for tok in lexer::lex(&code).iter() {
+    for tok in lexer::lex(&code) {
         println!("{:?}", tok);
     }
 }
