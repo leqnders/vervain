@@ -12,18 +12,26 @@
 // COPYRIGHT EST. 2025
 // WRITTEN BY @NVTTLES
 
-// pub enum Expr {
+pub enum Expr {
+   
+}
 
-// }
+pub enum Types {
+   String,
+   Number,
+   Boolean,
+}
 
-// pub enum Types {
+pub enum OpTypes {
+   Add, // +
+   Sub, // -
+   Mult, // *
+   Div, // /
+   Mod, // %
+}
 
-// }
-
-// pub enum OpTypes {
-
-// }
-
-// pub enum OpEnum {
-
-// }
+pub struct BinaryOp {
+   left: u32,
+   op: OpTypes,
+   right: u32,
+}

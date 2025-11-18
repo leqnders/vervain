@@ -1,19 +1,19 @@
-use vervainc::ast::lexer;
+// use vervainc::ast::lexer;
 
 fn main() {
-    let code = r#"
-        import io {
-            print
-        }
+    // let code = r#"
+    //     import io {
+    //         print
+    //     }
 
-        @private func print_hello() {
-            print("Hello, world!")
-        }
+    //     @private func print_hello() {
+    //         print("Hello, world!")
+    //     }
 
-        print_hello()
-    "#;
+    //     print_hello()
+    // "#;
 
-    for tok in lexer::lex(&code) {
-        println!("{:?}", tok);
-    }
+    // for tok in lexer::lex(&code) {
+    //     println!("{:?}", tok);
+    // }
 }
